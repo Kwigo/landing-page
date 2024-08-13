@@ -1,0 +1,123 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: end;
+    flex: auto;
+    max-height: 50px;
+}
+
+.logo {
+    color: #F9FAF8;
+    flex: auto;
+    
+    margin-left: 60px;
+    margin-bottom: 14px;
+    font-size: 24px;
+    font-style: extra-bold;
+}
+
+.menu{
+    display: flex;
+    color: #E5E7EB;
+    flex: auto;
+    align-items: bottom;
+    margin-bottom: 14px;
+    list-style: none;
+    font-size: 18px;
+    gap: 15px;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+.front-elem {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    height: 350px;
+}
+.pres-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 10px;
+    max-width: 300px;
+    align-items: flex-start;
+    padding-left: 40px;
+    flex-wrap: wrap;
+}
+.pres-left h3{
+    font-size: 24px;
+    font-style: bold;
+}
+.pres-left button {
+    background-color: #3882F6;
+    max-width: 70px;
+    border-radius: 7px;
+    height: 24px;
+}
+.pres-left p{
+    max-width: 2200px;
+    font-size: 18px;
+}
+.pres-right {
+    flex: 1 1 auto;
+    max-width: 300px;
+}
+.rand-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 36px;
+    font-style: extra-bold;
+    color: #1F2937
+}
+.imgbox {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 128px;
+    height: 128px;
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+.boxtxt {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.txt {
+    width: 128px;
+}
+.insptxt {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    text-align: justify;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.name {
+    align-self: end;
+    padding-right: 180px;
+    font-size: 24px;
+    font-weight: 600;
+}
